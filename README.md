@@ -3,13 +3,14 @@
 This is my own solutions to Damn Vulnerable DeFi.
 The repo is v2.2.0 from Damn Vulnerable DeFi.
 
-Solutios added thus far:
+Solutions added thus far:
+==========================
 
 - [ ] Unstoppable
 - [ ] Naive receiver
 - [x] Truster
 - [x] Side entrance
 
-... and more.
+... and more will be added soon!
 
 ![](cover.png)
