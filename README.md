@@ -5,6 +5,11 @@ The repo is v2.2.0 from Damn Vulnerable DeFi.
 
 Solutios added thus far:
 
+- [ ] Unstoppable
+- [ ] Naive receiver
 - [x] Truster
+- [ ] Side entrance
+
+... and more.
 
 ![](cover.png)
