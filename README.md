@@ -3,8 +3,6 @@
 This is my own solutions to Damn Vulnerable DeFi.
 The repo is v2.2.0 from Damn Vulnerable DeFi.
 
-## Solutions
-
 Solutions added thus far:
 ==========================
 
