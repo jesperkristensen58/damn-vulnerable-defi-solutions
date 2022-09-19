@@ -8,7 +8,7 @@ Solutios added thus far:
 - [ ] Unstoppable
 - [ ] Naive receiver
 - [x] Truster
-- [ ] Side entrance
+- [x] Side entrance
 
 ... and more.
 
