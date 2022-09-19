@@ -6,7 +6,7 @@ The repo is v2.2.0 from Damn Vulnerable DeFi.
 Solutions added thus far:
 ==========================
 
-- [ ] Unstoppable
+- [x] Unstoppable
 - [ ] Naive receiver
 - [x] Truster
 - [x] Side entrance
