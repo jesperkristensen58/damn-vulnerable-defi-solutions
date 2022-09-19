@@ -7,7 +7,7 @@ Solutions added thus far:
 ==========================
 
 - [x] Unstoppable
-- [ ] Naive receiver
+- [x] Naive receiver
 - [x] Truster
 - [x] Side entrance
 

