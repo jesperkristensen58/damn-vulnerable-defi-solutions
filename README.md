@@ -10,6 +10,7 @@ Solutions added thus far:
 - [x] Naive receiver
 - [x] Truster
 - [x] Side entrance
+- [x] Climber
 
 ... and more will be added soon!
 
